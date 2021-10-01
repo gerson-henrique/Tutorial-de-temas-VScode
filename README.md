@@ -69,12 +69,87 @@ A por ultimo, uma forma simples de manter um bom jogo de cores na sua produção
   
   #### Costomização 🎨
   
-  Até que enfim o tópico que esperavamos, Aqui é onde vamos fazer testes e mais testes até chegar em um consenso. Por incrivel que pareça não temos muito o que falar da costumização em si 
- 
+  Até que enfim o tópico que esperavamos, Aqui é onde vamos fazer testes e mais testes até chegar em um consenso. Por incrivel que pareça não temos muito o que falar da costumização em si. é mais um tempo de expressão e testes <br><br>
+  
+  * Entre no arquivo seu-tema.json dentro da pasta Themes <br><br>
+  * para consulta abra esse link 	<a href="https://github.com/gerson-henrique/Tutorial-de-temas-VScode/blob/main/coresExplicadas.json" rel="nofollow">aqui</a> <br><br>
+  * As marcações estão divididas em duas formas, as de Estrutura e as de Sintaxe, as de estrutura estão traduzidas no link, e representam as cores do do editor em si, as de sintaxe não estão traduzidas, mas seus nomes são bem diretos ao que representam, elas são as cores dos diferentes tipos de  texto no seu editor.<br><br>
+  
+  Essa sem duvidas é a parte mais divertida! solte sua imaginação e deixe o terminal com a sua cara, <em><strong>lembresse de Apertar F5 para vizualizar como seu projeto está ficando.</strong></em>, quando você se sentir pronto vamos etiquetar essa obra de arte!<br><br>
+  
+  * Entre no arquivo package.json 
+  * vamos etiquetar passo a passo todo o seu projeto
   
   
   
+ ```
   
+  {
+    // nome do seu projeto
+    "name": "robotpilot-theme",
+  
+    //nome exibido
+    "displayName": "Robot Pilot Theme ",
+  
+    //descrição do projeto 
+    "description": "Robot Pilot is part of a study on VsCode documentation",
+    
+    //autor
+    "author": {
+        "name": "Gero"
+    },
+  
+    //Publicado por
+    "publisher": "gerson-henrique",
+    
+    //versão do tema
+    "version": "0.0.1",
+  
+    //renderização
+    "engines": {
+        //versão do vs code 
+        "vscode": "^1.60.0"
+    },
+  
+     //Seu reposititorio   
+     "repository":{
+        "type": "git",
+        "url":  "https://github.com/gerson-henrique/VsCode-Theme---Robot-Pilot"
+    },
+  
+  
+    //icone 128px 128px
+    "icon": logo.png ************************************************************************
+    
+    "categories": [
+        "Themes"
+    ],
+  
+    //Palavras chave 
+    "keywords": [
+        "robot rilot",
+        "contrast",
+        "purple",
+        "green",
+        "evangelion",
+        "mecha",
+        "anime"
+   ],
+    
+    //outros projetos
+    "contributes": {
+        "themes": [
+            {
+                "label": "robot-pilot",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GHO-color-theme.json"
+          }
+        ]
+     }
+  } 
+  
+```
+
   
   
   
