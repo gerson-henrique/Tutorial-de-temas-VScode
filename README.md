@@ -118,7 +118,7 @@ A por ultimo, uma forma simples de manter um bom jogo de cores na sua produção
   
   
     //icone 128px 128px
-    "icon": logo.png ************************************************************************
+    "icon": "logo.png" ************************************************************************
     
     "categories": [
         "Themes"
