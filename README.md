@@ -82,8 +82,7 @@ A por ultimo, uma forma simples de manter um bom jogo de cores na sua produção
   
   
   
- ```
-  
+```json
   {
     // nome do seu projeto
     "name": "robotpilot-theme",
@@ -147,10 +146,71 @@ A por ultimo, uma forma simples de manter um bom jogo de cores na sua produção
         ]
      }
   } 
+  ```
   
-```
+<br>
+  
+Repare na quantidade de astericos que eu colequei na parte do icon você não tem noção da quantidade de erro que tem na internet por causa dessa parte, Você precisa fazer com que o arquivo do seu icone esteja dentro da pasta do seu projeto, na area de créditos eu vou referenciar o numero de confusões que as pessoas tiveram simplesmente por não colocar essa imagem dentro do diretorio, promete pra mim que você não vai esquecer blz? (Eu perdi um dia inteiro de trampo tentando descobrir por que o vscode não abria o caminho que eu colocava >:CCCCCCCC)
+  
+ #### Empacotando  📦
+ 
+  
+  De volta ao nosso querido terminal do vscode, é hora de empacotar nosso tema de uma vez! <br><br>
+  
+  * Digite o seguinte código no terminal<br>
+  
+  <code> sudo npm i -g  vsce</code><br><br>
+  
+   * depois de instalado o vsce, vamos dar o comando de empacotamento <br>
+  
+  <code> vsce package </code><br><br>
+  
+  * se você seguiu a risca esse tutorial, um novo arquivo surgiu na sua pasta de projeto, nome-do-seu-arquivo-theme-0.0.1.vsix, e é essa belezinha que vamos usar pra instalar o tema.<br><br>
+ 
+  <code> code --install-extension nome-do-seu-arquivo-theme-0.0.1.vsix</code><br><br>
+  
+ clique na engrenagem (barra lateral do vscode) e vá em selecionar temas, e <em>voilà</em> seu proprio tema instalado!! <br><br>
+ 
+ Você pode compartilhar seu tema pela loja de extenções do visual code <s> o que eu acho uma baita burocracia </s> ou compartilhar no github  (se postar aqui na comunidade me marca pra ver suas obras de arte)
+  
+  #### Despedida 💌
+  
+  Queria agradecer a você pessoa desenvolvedora que me acompanhou até aqui, obrigado por tirar esses minutinhos para investir em você, criar sua primeira extensão é super prazeroso e espero que você mantenha esse prazer aceso em codar, o mundo precisa de devs! <br><br>
+  
+  Se for do seu interesse, gostaria que você me desse aquela estrelinha nesse repositorio e me seguisse aqui no hub, vou procurar estar sempre ativo e trazendo mais materiais conforme eu for aprendendo!<br><br>
+  
+ muito obrigado.<br><br>
 
+   #### Referencias 🔍
+ https://code.visualstudio.com/docs/getstarted/themes manual da Vscode sobre themas <br>
+ https://github.com/gerson-henrique/VsCode-Theme---Robot-Pilot meu primeiro tema <br>
+ https://github.com/nvm-sh/nvm#installing-and-updating Github nvm-sh <br>
+ https://coolors.co/16c60c-13293d-e8f1f2-fffeff-946ce8 gerador de paletas pra você se inspirar <br>
+ https://code.visualstudio.com/api/working-with-extensions/publishing-extension manual de publicações Vscode<br>
+ https://www.youtube.com/watch?v=QCqWzb-9Sy8 tutorial em ingles de Tema Vscode<br>
+ https://www.youtube.com/watch?v=m6S4NSZkB88 tutorial em ingles sobre criação e publicação<br>
+ https://docs.microsoft.com/pt-br/azure/devops/organizations/accounts/create-organization?view=azure-devops Cadastro no Azure <br>
+ https://www.betrybe.com/ melhor escola de programação da historia <br>
+ https://www.youtube.com/watch?v=BdO8QgSgBYY instalando NVM <br>
+ https://www.opus-software.com.br/node-js/ o que é o Node.js <br>
+ https://howtoinstall.co/pt/curl curl no ubunto <br>
+ https://yeoman.io/generators/ outros geradores da Yo <br>
   
+  
+ 
+ o caso da imagem fora do diretorio<br>
+ https://stackoverflow.com/questions/44423212/error-detecting-icon-when-publishing-vscode-extension <br>
+ https://github.com/microsoft/vscode-vsce/issues/341<br>
+ https://github.com/microsoft/vscode-vsce/issues/233<br>
+ https://johnnn.tech/q/error-detecting-icon-when-publishing-vscode-extension/<br>
+ https://www.coder.work/article/6277663  Coloca essa página em tradução automatica.<br>
+ https://githubmemory.com/repo/microsoft/vscode-vsce/issues/584 <br>
+ https://github.com/microsoft/vscode-vsce/issues/177<br>
+  
+ 
+  
+  
+ 
   
   
   
